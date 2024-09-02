@@ -20,9 +20,9 @@ const ButtonComponent = ({
     }}
     onClick={onClick}
     className={`py-2 px-2 drop-shadow-lg ${ alt 
-        ? "bg-[#6D6D6D] px-3 py-3 text-center  font-normal text-white hover:drop-shadow-xl"
-        :  "bg-[white] text-center font-normal text-[black] hover:drop-shadow-xl"
-    } rounded-[50px] ${style}
+        ? "bg-[#6D6D6D] px-3 py-3 text-center  font-normal text-white hover:drop-shadow-xl rounded-[50px]"
+        :  "bg-[blue] text-center font-normal text-[white] rounded hover:drop-shadow-xl"
+    }  ${style}
     `}
     >
 {children}
